@@ -7,7 +7,7 @@ const CardList = ({ robots })=>{
 			{robots.map(
 				currentRobot => 
 				<Card 
-				key={currentRobot.id + currentRobot.name.charCodeAt(0)}
+				key={currentRobot.id}
 				id={currentRobot.id}
 				name={currentRobot.name}
 				user={currentRobot.username}
