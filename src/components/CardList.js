@@ -12,9 +12,9 @@ const CardList = ({ robots })=>{
 				name={currentRobot.name}
 				user={currentRobot.username}
 				email={currentRobot.email}/>)
-			}
+			}	
 		</div>
-	);
-};
+	)
+}
 
 export default CardList;

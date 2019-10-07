@@ -10,7 +10,7 @@ const card = ({ id, name, email })=> {
 				<h2>{email}</h2>
 			</div>		
 		</div>
-	);
-};
+	)
+}
 
 export default card;
